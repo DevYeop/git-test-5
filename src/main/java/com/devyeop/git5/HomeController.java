@@ -42,6 +42,8 @@ public class HomeController {
 		//8888
 		//10-10-10
 		
+		String afterStashString = "스태쉬후 커밋하기 좋은 코드상황";
+		
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
