@@ -30,14 +30,9 @@ public class HomeController {
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
 		String formattedDate = dateFormat.format(date);
-<<<<<<< HEAD
 		String asdfString = "asdfasdfasdf";
 		//asdf
-=======
 		
-		String asdfString = "asdfasdfsadf";
-		
->>>>>>> cc937164649eeda8005c09dfbb683184b2595b3c
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
