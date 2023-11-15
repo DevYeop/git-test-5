@@ -49,7 +49,8 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		String commit1 = "asdf";
 		String commit2 = "asdf";
-		String commit3 = "asdf";		
+		String commit3 = "asdf";	
+		String commit4 = "asdf";
 		return "home";
 	}
 	
