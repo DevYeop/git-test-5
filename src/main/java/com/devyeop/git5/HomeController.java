@@ -46,6 +46,8 @@ public class HomeController {
 		String commit1 = "asdf";
 		String commit2 = "asdf";
 		String commitAfeterStashString ="asdf";
+		String stashString ="stash";
+		String stashString22 ="stash";
 		
 
 		return "home";
