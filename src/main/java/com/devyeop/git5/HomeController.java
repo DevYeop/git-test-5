@@ -49,6 +49,7 @@ public class HomeController {
 		String stashString ="stash";
 		String stashString22 ="stash";
 		
+		String aheadString = "asdf";
 
 		return "home";
 	}
