@@ -45,6 +45,8 @@ public class HomeController {
 		String afterStashString = "스태쉬 꺼내서 다시 커밋하기 좋은 코드로 변경";
 		String stashString = "개발하다가 커밋하긴 참 애매한 상황";
 		
+		String sdfasdfString = "리버트";
+		
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
